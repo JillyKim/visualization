@@ -10,22 +10,32 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+    I evaluate the quality of visualizations based on the criteria that I learnt during the lecture. The following aspects of the visualizations were considered: Aesthetical aspect, substantiveness, perceptiveness.
 
+    A good example of visualization: 
+    https://public.tableau.com/app/profile/elena.cherednikova/viz/NordicDigitalDevelopmentSustainableProsperity/DigitalDashboard
+    
+    - Aesthetic: 
+    The colour scheme used in the visualization is aesthetically pleasing. While the dashboard includes a number of graphs,the unified color tone makes it easy to following information without overwhelming feeling. 
+    - Substantiveness:
+    The visualization accurately present data, without distorting data. The interactive line graph engages users to better understand the data provided.
+    - perceptiveness:
+    the title and legends for each graph are very clear. This helps audience understand what message the maker of the visualization is conveying.
 
+    A bad example of visualization:
+    https://www.flickr.com/photos/rajkamalaich/6101799367/in/set-72157600514123219/ (titled as 'the bigger picture')
 
-
-
-
+    - Aesthetic: The design of the donut chart matches well with the subject. However, the choice of colours for the numbers and legends are not clear, and the differences betweeen the responses are very difficult to tell.
+   
+    - Substantiveness: The visualization does not accurately present data. For example, in the right donut chart, the information of the second largest portion of the chart is omitted. In addition, the division between the responses are very unclear and disproportionate. 
+    
+    - perceptiveness: the main title for the charts is very vague, failing to convey the message. 
+  
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
+      First, using another color scheme can make the visualization more readable. For instance, currently the visualization uses a beige color as a background and white color. Applying different colors for each slice can improve the aesthtic and perceptiveness of the visualization. Secondly, a more clear separation between two donut charts can make it easier to understand the data. Currently, for a design reason, there is not a clear division between the left & right donut charts. Due to this, it is not clear whether the categories ('coworkers' and 'Boyfriend') belong to the left or right chart. 
 
 
       
