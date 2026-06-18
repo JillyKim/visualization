@@ -1,0 +1,35 @@
+---
+title: "visualization_boyname"
+format: html
+editor: visual
+---
+```{r}
+install.packages("forcats")
+```
+```{r}
+library(ggplot2)
+library(tidyr)
+library(dplyr)
+library(forcats)
+```
+
+```{r}
+df <- read.csv("/Users/jinrikim/Desktop/DSI/visualization/baby_names_male.csv")
+```
+
+```{r}
+#filter the 15 most popular names in 2024
+names_2024 <- df %>%
+  filter(Year == 2024) %>%
+  arrange(desc(Frequency)) %>%
+  head(15)
+```
+
+```{r}
+names_2024 %>%
+  mutate(Name = fct_reorder(Name, Frequency)) %>% # rank names by descending order
+  ggplot( aes(x= Name, y = Frequency)) +
+  geom_bar(stat = "identity", fill = "deepskyblue2", alpha = 0.7, width= 0.6) + coord_flip() + theme_bw() + labs(title = "The 15 most popular baby boy names in 2024") + theme(plot.title = element_text(hjust = 0.5)) + geom_text(aes(label = Frequency), position = position_stack(vjust = 0.75), size = 3.5, family = "Courier")
+```
+
+
